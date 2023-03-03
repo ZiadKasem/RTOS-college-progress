@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.general.xcl" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.driver.xcl" 
+"E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.general.xcl" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.driver.xcl" 
+"E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.general.xcl" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.driver.xcl" 
+& "E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.general.xcl" --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.driver.xcl" 
 }
 else
 {
-& "E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\settings\project.Debug.driver.xcl" 
+& "E:\programs\iar\common\bin\cspybat" -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\settings\project.Debug.driver.xcl" 
 }
