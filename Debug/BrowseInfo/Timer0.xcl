@@ -1,13 +1,13 @@
-"D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\main.c"
+"D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Timer0.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\main.pbi.dep
+D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\Timer0.pbi.dep
 -o
-D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\main.pbi
+D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\Timer0.pbi
 -I
 D:\0.gam3a\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress
 -I
