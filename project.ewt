@@ -2855,7 +2855,19 @@
         <name>$PROJ_DIR$\DIO.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\functions.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\functions.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\schedular.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\schedular.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\startup_ewarm.c</name>
