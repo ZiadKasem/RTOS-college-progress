@@ -19,6 +19,7 @@ void SysTick_handler(){
 int main() {
     DIO_init();
     Systick_Init_int();
+    TimerInit();
     createfun(&fun1,5);  //explain
     createfun(&fun2,10);
     createfun(&fun3,20);
@@ -27,3 +28,10 @@ int main() {
     }
     return 0;
 }
+
+
+/*
+need to disaple intruppt during scheduling 
+need to add timer
+
+*/

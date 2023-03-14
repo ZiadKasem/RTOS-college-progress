@@ -15,9 +15,10 @@ void Systick_Init_int()
   //NVIC_ST_CTRL_R = 0;  
   SysTickDisable();  
   // each 5 ms
-  NVIC_ST_RELOAD_R = 16000*5;  
+  NVIC_ST_RELOAD_R = 16000000;
+  //NVIC_ST_RELOAD_R = 16000*5;  
   NVIC_ST_CTRL_R = 7;   
   
-  SysTickEnable();
+  //SysTickEnable();
    
 }

@@ -14,13 +14,12 @@ struct FunctionStruct intst;
   ArrayOfStruct[funcNu] = intst;
   funcNu++;
   
-  
-  
 }
 
 
 void schedular(){
   while(1){
+  // disable systic 
   
     if(((ctr % ArrayOfStruct[0].periodicity ) == 0) && ctr >= 5){
   
@@ -34,6 +33,6 @@ void schedular(){
   
       ArrayOfStruct[2].FunPtr();
   }
-
+  // enable systic
   }
 }
