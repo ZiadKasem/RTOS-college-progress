@@ -1,4 +1,5 @@
-#include"Timer0.h"
+#include "Timer0.h"
+#include "DIO.h"
 void fun1() {
     while (1) {
       TimerEnable(TIMER0_BASE,TIMER_A);

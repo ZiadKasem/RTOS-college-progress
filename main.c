@@ -17,10 +17,12 @@ void SysTick_handler(){
 }
 
 int main() {
-    createfun(fun1(),5);
-    createfun(fun2(),10);
-    createfun(fun3(),20);
-    schedular(&ctr);
+    DIO_init();
+    Systick_Init_int();
+    createfun(&fun1,5);  //explain
+    createfun(&fun2,10);
+    createfun(&fun3,20);
+    schedular();
     while(1){
     }
     return 0;
