@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  12/Mar/2023  11:12:17
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  14/Mar/2023  13:58:30
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -41,7 +41,7 @@
 ***
 
 Warning[Lt009]: Inconsistent wchar_t size
-            timer.o(driverlib.a) and 4 other objects in driverlib.a have
+            systick.o(driverlib.a) and 4 other objects in driverlib.a have
                       wchar_t size 16 bits
             DIO.o and 20 other objects, some of them in shb_l.a and 13 other
                       libraries have wchar_t size 32 bits
@@ -84,27 +84,26 @@ do not initialize { rw section .noinit };
   .intvec          const            0x0  0x26c  startup_ewarm.o [1]
                                 - 0x26c  0x26c
 
-"P1":                                    0x3e8
+"P1":                                    0x340
   .text            ro code        0x26c   0xea  DIO.o [1]
-  .text            ro code        0x358   0xd8  functions.o [1]
-  .text            ro code        0x430   0x12  timer.o [3]
-  .text            ro code        0x444   0x74  schedular.o [1]
-  .text            ro code        0x4b8   0x44  main.o [1]
-  .text            ro code        0x4fc   0x24  Systic_timer.o [1]
-  .text            ro code        0x520   0x1c  systick.o [3]
-  .text            ro code        0x53c   0x38  zero_init3.o [5]
-  .text            ro code        0x574   0x28  data_init.o [5]
-  .text            ro code        0x59c   0x22  fpinit_M.o [4]
-  .iar.init_table  const          0x5c0   0x10  - Linker created -
-  .text            ro code        0x5d0   0x20  startup_ewarm.o [1]
-  .text            ro code        0x5f0   0x1c  cstartup_M.o [5]
-  .text            ro code        0x60c   0x1e  cmain.o [5]
-  .text            ro code        0x62a    0x4  low_level_init.o [2]
-  .text            ro code        0x62e    0x4  exit.o [2]
-  .text            ro code        0x634    0xa  cexit.o [5]
-  .text            ro code        0x640   0x14  exit.o [6]
-  .rodata          const          0x654    0x0  zero_init3.o [5]
-                                - 0x654  0x3e8
+  .text            ro code        0x358   0x88  schedular.o [1]
+  .text            ro code        0x3e0   0x44  main.o [1]
+  .text            ro code        0x424   0x24  Systic_timer.o [1]
+  .text            ro code        0x448   0x1c  systick.o [3]
+  .text            ro code        0x464   0x38  zero_init3.o [5]
+  .text            ro code        0x49c   0x30  functions.o [1]
+  .text            ro code        0x4cc   0x28  data_init.o [5]
+  .text            ro code        0x4f4   0x22  fpinit_M.o [4]
+  .iar.init_table  const          0x518   0x10  - Linker created -
+  .text            ro code        0x528   0x20  startup_ewarm.o [1]
+  .text            ro code        0x548   0x1c  cstartup_M.o [5]
+  .text            ro code        0x564   0x1e  cmain.o [5]
+  .text            ro code        0x582    0x4  low_level_init.o [2]
+  .text            ro code        0x586    0x4  exit.o [2]
+  .text            ro code        0x58c    0xa  cexit.o [5]
+  .text            ro code        0x598   0x14  exit.o [6]
+  .rodata          const          0x5ac    0x0  zero_init3.o [5]
+                                - 0x5ac  0x340
 
 "P2", part 1 of 2:                        0x20
   .bss             zero     0x2000'0000   0x18  schedular.o [1]
@@ -120,7 +119,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x654     0x3'ffff  0x3'f9ac
+        0x5ac     0x3'ffff  0x3'fa54
   0x2000'0220  0x2000'7fff    0x7de0
 
 
@@ -149,12 +148,12 @@ command line/config:
 D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj: [1]
     DIO.o                 234
     Systic_timer.o         36
-    functions.o           216
+    functions.o            48
     main.o                 68                 4
-    schedular.o           116                28
+    schedular.o           136                28
     startup_ewarm.o        32      620      512
     -------------------------------------------
-    Total:                702      620      544
+    Total:                554      620      544
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -164,9 +163,8 @@ dl7M_tln.a: [2]
 
 driverlib.a: [3]
     systick.o              28
-    timer.o                18
     -------------------------------------------
-    Total:                 46
+    Total:                 28
 
 m7M_tls.a: [4]
     fpinit_M.o             34
@@ -187,10 +185,10 @@ shb_l.a: [6]
     -------------------------------------------
     Total:                 20
 
-    Gaps                    8        2
+    Gaps                    6        2
     Linker created                  16
 -----------------------------------------------
-    Grand Total:          982      638      544
+    Grand Total:          814      638      544
 
 
 *******************************************************************************
@@ -199,44 +197,43 @@ shb_l.a: [6]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x5c0          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x5d0          --   Gb  - Linker created -
-?main                         0x60d         Code  Gb  cmain.o [5]
+.iar.init_table$$Base         0x518          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x528          --   Gb  - Linker created -
+?main                         0x565         Code  Gb  cmain.o [5]
 ArrayOfStruct           0x2000'0000   0x18  Data  Gb  schedular.o [1]
 DIO_WritePin                  0x321   0x36  Code  Gb  DIO.o [1]
 DIO_init                      0x26d   0x7c  Code  Gb  DIO.o [1]
-FaultISR                      0x5eb    0x2  Code  Lc  startup_ewarm.o [1]
-IntDefaultHandler             0x5ed    0x2  Code  Lc  startup_ewarm.o [1]
-NmiSR                         0x5e9    0x2  Code  Lc  startup_ewarm.o [1]
-Region$$Table$$Base           0x5c0          --   Gb  - Linker created -
-Region$$Table$$Limit          0x5d0          --   Gb  - Linker created -
-ResetISR                      0x5d1   0x12  Code  Gb  startup_ewarm.o [1]
-SysTickDisable                0x52d    0xc  Code  Gb  systick.o [3]
-SysTickEnable                 0x521    0xc  Code  Gb  systick.o [3]
-SysTick_handler               0x4b9    0xa  Code  Gb  main.o [1]
-Systick_Init_int              0x4fd   0x24  Code  Gb  Systic_timer.o [1]
-Timer0IntHandler              0x5ef    0x2  Code  Lc  startup_ewarm.o [1]
-TimerEnable                   0x431    0xc  Code  Gb  timer.o [3]
-__cmain                       0x60d         Code  Gb  cmain.o [5]
-__exit                        0x641   0x14  Code  Gb  exit.o [6]
-__iar_data_init3              0x575   0x28  Code  Gb  data_init.o [5]
-__iar_init_vfp                0x59d         Code  Gb  fpinit_M.o [4]
-__iar_program_start           0x5f1         Code  Gb  cstartup_M.o [5]
-__iar_zero_init3              0x53d   0x38  Code  Gb  zero_init3.o [5]
-__low_level_init              0x62b    0x4  Code  Gb  low_level_init.o [2]
+FaultISR                      0x543    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler             0x545    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                         0x541    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x518          --   Gb  - Linker created -
+Region$$Table$$Limit          0x528          --   Gb  - Linker created -
+ResetISR                      0x529   0x12  Code  Gb  startup_ewarm.o [1]
+SysTickDisable                0x455    0xc  Code  Gb  systick.o [3]
+SysTickEnable                 0x449    0xc  Code  Gb  systick.o [3]
+SysTick_handler               0x3e1    0xa  Code  Gb  main.o [1]
+Systick_Init_int              0x425   0x24  Code  Gb  Systic_timer.o [1]
+Timer0IntHandler              0x547    0x2  Code  Lc  startup_ewarm.o [1]
+__cmain                       0x565         Code  Gb  cmain.o [5]
+__exit                        0x599   0x14  Code  Gb  exit.o [6]
+__iar_data_init3              0x4cd   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp                0x4f5         Code  Gb  fpinit_M.o [4]
+__iar_program_start           0x549         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3              0x465   0x38  Code  Gb  zero_init3.o [5]
+__low_level_init              0x583    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
-_call_main                    0x619         Code  Gb  cmain.o [5]
-_exit                         0x635         Code  Gb  cexit.o [5]
-createfun                     0x445   0x1e  Code  Gb  schedular.o [1]
+_call_main                    0x571         Code  Gb  cmain.o [5]
+_exit                         0x58d         Code  Gb  cexit.o [5]
+createfun                     0x359   0x1e  Code  Gb  schedular.o [1]
 ctr                     0x2000'0018    0x4  Data  Gb  main.o [1]
-exit                          0x62f    0x4  Code  Gb  exit.o [2]
-fun1                          0x359   0x42  Code  Gb  functions.o [1]
-fun2                          0x39b   0x42  Code  Gb  functions.o [1]
-fun3                          0x3dd   0x42  Code  Gb  functions.o [1]
+exit                          0x587    0x4  Code  Gb  exit.o [2]
+fun1                          0x49d    0xe  Code  Gb  functions.o [1]
+fun2                          0x4ab    0xe  Code  Gb  functions.o [1]
+fun3                          0x4b9    0xe  Code  Gb  functions.o [1]
 funcNu                  0x2000'001c    0x4  Data  Lc  schedular.o [1]
-main                          0x4c3   0x28  Code  Gb  main.o [1]
+main                          0x3eb   0x28  Code  Gb  main.o [1]
 pui32Stack              0x2000'0020  0x200  Data  Lc  startup_ewarm.o [1]
-schedular                     0x463   0x4a  Code  Gb  schedular.o [1]
+schedular                     0x377   0x5c  Code  Gb  schedular.o [1]
 
 
 [1] = D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj
@@ -246,7 +243,7 @@ schedular                     0x463   0x4a  Code  Gb  schedular.o [1]
 [5] = rt7M_tl.a
 [6] = shb_l.a
 
-  982 bytes of readonly  code memory
+  814 bytes of readonly  code memory
   638 bytes of readonly  data memory
   544 bytes of readwrite data memory
 

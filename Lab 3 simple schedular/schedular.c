@@ -22,15 +22,15 @@ struct FunctionStruct intst;
 void schedular(){
   while(1){
   
-    if((ArrayOfStruct[0].periodicity % ctr) == 0){
+    if(((ctr % ArrayOfStruct[0].periodicity ) == 0) && ctr >= 5){
   
       ArrayOfStruct[0].FunPtr();
   }
-    if((ArrayOfStruct[1].periodicity % ctr) ==0){
+   if(((ctr % ArrayOfStruct[1].periodicity ) == 0) && ctr >= 10){
   
       ArrayOfStruct[1].FunPtr();
   }
-   if((ArrayOfStruct[2].periodicity % ctr) ==0){
+   if(((ctr % ArrayOfStruct[2].periodicity ) == 0) && ctr >= 20){
   
       ArrayOfStruct[2].FunPtr();
   }
