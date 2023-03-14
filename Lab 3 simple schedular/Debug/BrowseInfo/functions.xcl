@@ -1,15 +1,15 @@
-"D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\functions.c"
+"D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular\functions.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\functions.pbi.dep
+D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular\Debug\BrowseInfo\functions.pbi.dep
 -o
-D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\BrowseInfo\functions.pbi
+D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular\Debug\BrowseInfo\functions.pbi
 -I
-D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress
+D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular
 -I
 C:\ti\TivaWare_C_Series-2.2.0.295
 -I

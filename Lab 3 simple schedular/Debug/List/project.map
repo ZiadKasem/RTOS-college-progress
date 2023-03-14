@@ -1,33 +1,35 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  14/Mar/2023  13:58:30
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  14/Mar/2023  14:17:27
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Exe\project.out
+#        D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3
+#        simple schedular\Debug\Exe\project.out
 #    Map file     =
-#        D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\List\project.map
+#        D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3
+#        simple schedular\Debug\List\project.map
 #    Command line =
-#        -f "D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Exe\project.out.rsp"
-#        ("D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Obj\DIO.o" "D:\0.semester
-#        8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj\functions.o"
-#        "D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Obj\main.o" "D:\0.semester
-#        8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj\schedular.o"
-#        "D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Obj\startup_ewarm.o" "D:\0.semester
-#        8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Obj\Systic_timer.o" "D:\0.semester
-#        8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj\Timer0.o"
-#        --no_out_extension -o "D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\Exe\project.out" --redirect
-#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        "D:\0.semester 8\5-RTOS\labs\New
-#        folder\RTOS-college-progress\Debug\List\project.map" --config
+#        -f "D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3
+#        simple schedular\Debug\Exe\project.out.rsp" ("D:\0.semester
+#        8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Obj\DIO.o" "D:\0.semester 8\5-RTOS\labs\New
+#        folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Obj\functions.o" "D:\0.semester 8\5-RTOS\labs\New
+#        folder\RTOS-college-progress\Lab 3 simple schedular\Debug\Obj\main.o"
+#        "D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3
+#        simple schedular\Debug\Obj\schedular.o" "D:\0.semester
+#        8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Obj\startup_ewarm.o" "D:\0.semester 8\5-RTOS\labs\New
+#        folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Obj\Systic_timer.o" "D:\0.semester 8\5-RTOS\labs\New
+#        folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Obj\Timer0.o" --no_out_extension -o "D:\0.semester
+#        8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\Exe\project.out" --redirect _Printf=_PrintfFullNoMb
+#        --redirect _Scanf=_ScanfFullNoMb --map "D:\0.semester
+#        8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple
+#        schedular\Debug\List\project.map" --config
 #        E:\programs\iar\arm/config/linker/TexasInstruments/LM4F120H5QR.icf
 #        --semihosting
 #        C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a
@@ -145,7 +147,7 @@ command line/config:
     -------------------------------------------
     Total:
 
-D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj: [1]
+D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular\Debug\Obj: [1]
     DIO.o                 234
     Systic_timer.o         36
     functions.o            48
@@ -236,7 +238,7 @@ pui32Stack              0x2000'0020  0x200  Data  Lc  startup_ewarm.o [1]
 schedular                     0x377   0x5c  Code  Gb  schedular.o [1]
 
 
-[1] = D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Debug\Obj
+[1] = D:\0.semester 8\5-RTOS\labs\New folder\RTOS-college-progress\Lab 3 simple schedular\Debug\Obj
 [2] = dl7M_tln.a
 [3] = driverlib.a
 [4] = m7M_tls.a

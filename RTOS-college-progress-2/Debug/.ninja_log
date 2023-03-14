@@ -1,0 +1,21 @@
+# ninja log v5
+609	1023	6995562051100948	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
+4	2674	6995681055920153	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+573	1062	6995562051490384	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/startup_ewarm.o	24d4f38eb77b8e00
+387	980	6995562049928014	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/DIO.o	b9099f9fb812cfdd
+2775	4205	6995681073168532	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+6	1140	6995589119336659	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Timer0.o	84e093f1b652ede3
+2	255	6995697557361522	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+269	1218	6995697566830239	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	1285	6995701322737907	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+1302	2041	6995701330383642	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	498	6995701588058331	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+510	675	6995701589729232	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	265	6995702253244945	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+279	573	6995702256349118	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	813	6995704389355411	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+846	1002	6995704391355121	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+3	786	6995713218517517	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+800	1157	6995713222452351	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
+2	3005	6995717062189228	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
+3018	3413	6995717066327494	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
