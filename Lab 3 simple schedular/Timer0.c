@@ -15,7 +15,7 @@ void TimerInit(){
     // Configure Timer0 as a 32-bit periodic timer.
     //
     TimerConfigure(TIMER0_BASE,TIMER_CFG_A_PERIODIC);
-    //Set load value to done eac 500 ms
-    TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet()/2);
+    //Set load value to done  250 ms
+    TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet());
 
 }

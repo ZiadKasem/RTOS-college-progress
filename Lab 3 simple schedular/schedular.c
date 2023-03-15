@@ -1,3 +1,4 @@
+#include "Systic_timer.h" 
 extern int ctr;
 struct FunctionStruct  
 {  
@@ -20,7 +21,7 @@ struct FunctionStruct intst;
 void schedular(){
   while(1){
   // disable systic 
-  
+  //NVIC_ST_CTRL_R = 5;   
     if(((ctr % ArrayOfStruct[0].periodicity ) == 0) && ctr >= 5){
   
       ArrayOfStruct[0].FunPtr();
@@ -34,5 +35,6 @@ void schedular(){
       ArrayOfStruct[2].FunPtr();
   }
   // enable systic
+  //NVIC_ST_CTRL_R = 7;
   }
 }

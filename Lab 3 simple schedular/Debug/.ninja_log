@@ -1,91 +1,29 @@
 # ninja log v5
-609	1023	6995562051100948	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
-4	2674	6995681055920153	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-573	1062	6995562051490384	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/startup_ewarm.o	24d4f38eb77b8e00
-387	980	6995562049928014	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/DIO.o	b9099f9fb812cfdd
-2775	4205	6995681073168532	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-6	1140	6995589119336659	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Timer0.o	84e093f1b652ede3
-2	255	6995697557361522	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-269	1218	6995697566830239	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	1285	6995701322737907	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-1302	2041	6995701330383642	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	498	6995701588058331	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-510	675	6995701589729232	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	265	6995702253244945	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-279	573	6995702256349118	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	813	6995704389355411	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-846	1002	6995704391355121	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-3	786	6995713218517517	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-800	1157	6995713222452351	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	3005	6995717062189228	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-3018	3413	6995717066327494	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-4	2490	6995813558117620	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-2517	4076	6995813573237970	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-6	918	6995816281673716	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-950	1240	6995816285077295	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-6	960	6995817629457866	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-985	1246	6995817632336234	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-6	2173	6995822080565663	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-2227	2708	6995822085573755	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-5	1308	6995827640978748	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
-1320	1983	6995827647795142	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	472	6995829164497000	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-486	734	6995829167136337	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-112	1595	6996074527141941	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-1607	2304	6996074534237186	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-3	942	6996076262303376	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-959	1307	6996076265938358	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-2	513	6996077463790224	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	882510ae2dddfb32
-529	680	6996077465062568	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	de60b3197c398a69
-391	2847	6997060352987123	D:/0.gam3a/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	c66c36dc3ec6a1ba
-4843	13126	7002712909434320	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Timer0.o	4e7d81b60ebad1f3
-13140	14590	7002712924086157	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/Systic_timer.o	4803bb0a15bff801
-14210	14883	7002712925132494	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/startup_ewarm.o	eda483e6f4c6d2db
-4023	14974	7002712926992797	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/DIO.o	3fc7fa87ba7e28e8
-7	493	7003129980734584	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/functions.o	a491c65ea113e1dc
-7	818	7003153305297122	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/schedular.o	be67a5bb8a1086de
-7	391	7003154531185298	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	956ac65fd895128a
-422	1517	7003154542335547	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-7	341	7003155367261943	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/main.o	956ac65fd895128a
-368	772	7003155370143182	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-3	2310	7004972848449628	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/functions.o	a491c65ea113e1dc
-2324	3710	7004972862955194	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-2	623	7004974868341589	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/functions.o	a491c65ea113e1dc
-635	905	7004974871240186	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-3	572	7004980026201794	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/schedular.o	be67a5bb8a1086de
-583	821	7004980028813443	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-2	457	7004983100523026	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Obj/schedular.o	be67a5bb8a1086de
-467	716	7004983103175852	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Debug/Exe/project.out	7a46e2a2454fac55
-3	927	7004994453234464	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
-105	1089	7004994454782769	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
-151	1469	7004994458273011	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
-1126	1650	7004994460499625	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
-950	1754	7004994458112768	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/startup_ewarm.o	531ba368baa7c465
-198	1788	7004994461706778	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
 1512	2008	7004994464137170	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/DIO.o	8e3d523705ea8e28
-2029	2633	7004994470139769	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-8	929	7005003485991680	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
-54	1058	7005003487254181	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
-152	1387	7005003488849383	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
-1424	2021	7005003496935246	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-7	443	7005003973568936	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
-463	949	7005003978601813	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-4	779	7005004376314179	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
-810	1356	7005004382118576	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-5	247	7005006213807309	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
-279	662	7005006217867217	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-5	1001	7005007794839828	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
-1025	1414	7005007800018403	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-301	726	7005014675374592	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
-2	772	7005014676145397	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
-784	935	7005014677402254	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-2	361	7005016353777385	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
-374	640	7005016356614430	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
-30	887	7005020386050090	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
-62	964	7005020387601719	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
-4	1015	7005020387013414	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
-135	1273	7005020390008705	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
-2	225	7005020932757528	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
-3	160	7005021729499984	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
-2	333	7005023826845549	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
-344	610	7005023829700892	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+2	371	7005675335255466	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
+3	555	7005678240631169	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+99	2688	7005662948054801	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
+153	649	7005673370100063	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
+950	1754	7004994458112768	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/startup_ewarm.o	531ba368baa7c465
+284	574	7005678240815865	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
+381	656	7005675338258629	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+6	412	7005678722990379	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+2	400	7005678900665583	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+147	408	7005678900836817	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
+420	725	7005678903989987	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+2	255	7005679152504360	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
+264	467	7005679154732606	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+312	684	7005682110420960	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
+158	692	7005682111408279	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
+2	706	7005682111408279	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+712	930	7005682113739176	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+140	533	7005683087594636	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
+281	566	7005683087925852	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Timer0.o	1484712dacb70655
+2	585	7005683088067123	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+592	792	7005683090257460	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+290	1719	7005694988694305	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/Systic_timer.o	a05ee1a496fa4852
+6	1814	7005694989167607	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/main.o	40e51f1bb6a3fde4
+1824	2708	7005694996889853	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166
+2	482	7005696429565807	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/functions.o	2a46899fd784fd7d
+155	869	7005696434003665	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Obj/schedular.o	83e5b7b822d46a32
+882	1104	7005696436361400	D:/0.semester 8/5-RTOS/labs/New folder/RTOS-college-progress/Lab 3 simple schedular/Debug/Exe/project.out	e0aca1a84bc8f166

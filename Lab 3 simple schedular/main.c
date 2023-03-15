@@ -7,7 +7,13 @@
 #include "Timer0.h"
 #include "schedular.h"
 #include "functions.h"
-
+/*
+Timer 1 sec
+systic 0.1 sec
+problems: entering the same function more than one time in the same ctr value
+question do we have to read count flag in systic to clear ?
+when i enabled the systic interupt if there is pending interupt, it will be exectuted ones enabled ?
+*/
 int ctr =0;
 
 void SysTick_handler(){
@@ -32,6 +38,6 @@ int main() {
 
 /*
 need to disaple intruppt during scheduling 
-need to add timer
+need to add timer Done
 
 */

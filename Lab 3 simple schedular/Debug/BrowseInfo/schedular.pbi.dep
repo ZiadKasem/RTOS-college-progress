@@ -1,2 +1,18 @@
 D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\Debug\BrowseInfo\schedular.pbi: \
-  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\schedular.c
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\schedular.c \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\Systic_timer.h \
+  E:\programs\iar\arm\inc\c\stdint.h E:\programs\iar\arm\inc\c\ycheck.h \
+  E:\programs\iar\arm\inc\c\yvals.h \
+  E:\programs\iar\arm\inc\c\DLib_Defaults.h \
+  E:\programs\iar\arm\inc\c\DLib_Config_Normal.h \
+  E:\programs\iar\arm\inc\c\DLib_Product.h \
+  E:\programs\iar\arm\inc\c\stdbool.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\debug.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\types.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\tm4c123gh6pm.h \
+  C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\systick.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\DIO.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Lab\ 3\ simple\ schedular\bitwise_operation.h

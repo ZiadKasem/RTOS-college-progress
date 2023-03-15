@@ -1,6 +1,5 @@
 #ifndef SYSTIC_H
   #define SYSTIC_H
-
 #include <stdint.h>
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
