@@ -13,6 +13,7 @@ systic 0.1 sec
 problems: entering the same function more than one time in the same ctr value
 question do we have to read count flag in systic to clear ?
 when i enabled the systic interupt if there is pending interupt, it will be exectuted ones enabled ?
+Idea : can i make it wait at the end of schedular.c with the same time of systic so i can be sure that it will file each while itteration ?
 */
 int ctr =0;
 

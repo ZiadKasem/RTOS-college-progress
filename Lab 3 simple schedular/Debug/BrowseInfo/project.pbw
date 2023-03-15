@@ -115531,7 +115531,7 @@
     "display": "ctr",
     "location": {
       "column": "5",
-      "line": "17",
+      "line": "18",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
     },
     "name": "ctr",
@@ -115545,7 +115545,7 @@
     "display": "void SysTick_handler(void)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "20",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
     },
     "name": "SysTick_handler",
@@ -115559,7 +115559,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "25",
+      "line": "26",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
     },
     "name": "main",
