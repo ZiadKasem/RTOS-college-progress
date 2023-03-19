@@ -16,11 +16,13 @@ when i enabled the systic interupt if there is pending interupt, it will be exec
 Idea : can i make it wait at the end of schedular.c with the same time of systic so i can be sure that it will file each while itteration ?
 */
 int ctr =0;
+uint8 volatile systick_elapse = 0;
 
 void SysTick_handler(){
   
   ctr++;
-  
+  systick_elapse = 1;
+
 }
 
 int main() {

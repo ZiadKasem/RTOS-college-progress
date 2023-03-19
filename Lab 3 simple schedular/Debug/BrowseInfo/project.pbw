@@ -115539,13 +115539,27 @@
     "scope": null
   },
   {
+    "ID": "c:@systick_elapse",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "systick_elapse",
+    "location": {
+      "column": "16",
+      "line": "19",
+      "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
+    },
+    "name": "systick_elapse",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SysTick_handler",
     "What": "Function",
     "defdec": "Def",
     "display": "void SysTick_handler(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "21",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
     },
     "name": "SysTick_handler",
@@ -115559,7 +115573,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "26",
+      "line": "28",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\main.c"
     },
     "name": "main",
@@ -125731,13 +125745,27 @@
     "scope": null
   },
   {
+    "ID": "c:@systick_elapse",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "systick_elapse",
+    "location": {
+      "column": "23",
+      "line": "3",
+      "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
+    },
+    "name": "systick_elapse",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@S@FunctionStruct",
     "What": "Struct",
     "defdec": "Def",
     "display": "FunctionStruct",
     "location": {
       "column": "8",
-      "line": "3",
+      "line": "4",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "members": [
@@ -125748,7 +125776,7 @@
         "display": "FunPtr",
         "location": {
           "column": "11",
-          "line": "5",
+          "line": "6",
           "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
         },
         "name": "FunPtr",
@@ -125762,7 +125790,7 @@
         "display": "periodicity",
         "location": {
           "column": "8",
-          "line": "6",
+          "line": "7",
           "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
         },
         "name": "periodicity",
@@ -125781,7 +125809,7 @@
     "display": "ArrayOfStruct",
     "location": {
       "column": "23",
-      "line": "8",
+      "line": "9",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "name": "ArrayOfStruct",
@@ -125795,7 +125823,7 @@
     "display": "funcNu",
     "location": {
       "column": "12",
-      "line": "9",
+      "line": "10",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "name": "funcNu",
@@ -125809,7 +125837,7 @@
     "display": "void createfun(void (*)(void), int)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "name": "createfun",
@@ -125817,13 +125845,13 @@
     "scope": null
   },
   {
-    "ID": "c:schedular.c@265@F@createfun@intst",
+    "ID": "c:schedular.c@304@F@createfun@intst",
     "What": "Variable",
     "defdec": "Def",
     "display": "intst",
     "location": {
       "column": "23",
-      "line": "12",
+      "line": "13",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "name": "intst",
@@ -125837,7 +125865,7 @@
     "display": "void schedular(void)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "22",
       "path": "D:\\0.semester 8\\5-RTOS\\labs\\New folder\\RTOS-college-progress\\Lab 3 simple schedular\\schedular.c"
     },
     "name": "schedular",

@@ -1,5 +1,6 @@
 #include "Systic_timer.h" 
 extern int ctr;
+extern uint8 volatile systick_elapse;
 struct FunctionStruct  
 {  
    void (*FunPtr)(void); // explain
@@ -22,6 +23,8 @@ void schedular(){
   while(1){
   // disable systic 
   //NVIC_ST_CTRL_R = 5;   
+    if ( systick_elapse == 1 )
+    {
     if(((ctr % ArrayOfStruct[0].periodicity ) == 0) && ctr >= 5){
   
       ArrayOfStruct[0].FunPtr();
@@ -36,5 +39,7 @@ void schedular(){
   }
   // enable systic
   //NVIC_ST_CTRL_R = 7;
+  systick_elapse = 0;
+    }
   }
 }

@@ -1,6 +1,6 @@
 #include "Timer0.h"
 #include "DIO.h"
-//zz
+
 void fun1() {
     
       TimerEnable(TIMER0_BASE,TIMER_A);
