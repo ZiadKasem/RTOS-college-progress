@@ -19,3 +19,4 @@ void TimerInit(){
     TimerLoadSet(TIMER0_BASE, TIMER_A, SysCtlClockGet());
 
 }
+// 5.2.5.2 clock config

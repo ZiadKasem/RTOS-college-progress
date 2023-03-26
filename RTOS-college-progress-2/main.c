@@ -58,6 +58,15 @@ int main() {
     *(--sp_RedBlinky) = 0x000000099; /* R1  */
     *(--sp_RedBlinky) = 0x000000099; /* R0  */
     
+    *(--sp_RedBlinky) = 0x000000099;  /* xPSR */
+    *(--sp_RedBlinky) = 0x000000099; /* PC */
+    *(--sp_RedBlinky) = 0x000000099; /* LR  */
+    *(--sp_RedBlinky) = 0x000000099; /* R12 */
+    *(--sp_RedBlinky) = 0x000000099; /* R3  */
+    *(--sp_RedBlinky) = 0x000000099; /* R2  */
+    *(--sp_RedBlinky) = 0x000000099; /* R1  */
+    *(--sp_RedBlinky) = 0x000000099; /* R0  */
+    
 
     /* fabricate Cortex-M ISR stack frame for fun2 */
     *(--sp_BlueBlinky) = (1U << 24);  /* xPSR */
@@ -68,6 +77,17 @@ int main() {
     *(--sp_BlueBlinky) = 0x000000088; /* R2  */
     *(--sp_BlueBlinky) = 0x000000088; /* R1  */
     *(--sp_BlueBlinky) = 0x000000088; /* R0  */
+    
+    *(--sp_BlueBlinky) = 0x000000088;/* xPSR */
+    *(--sp_BlueBlinky) = 0x000000088; /* PC */
+    *(--sp_BlueBlinky) = 0x000000088; /* LR  */
+    *(--sp_BlueBlinky) = 0x000000088; /* R12 */
+    *(--sp_BlueBlinky) = 0x000000088; /* R3  */
+    *(--sp_BlueBlinky) = 0x000000088; /* R2  */
+    *(--sp_BlueBlinky) = 0x000000088; /* R1  */
+    *(--sp_BlueBlinky) = 0x000000088; /* R0  */
+    
+    
   
    
 

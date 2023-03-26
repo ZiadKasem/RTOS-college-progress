@@ -1,16 +1,16 @@
-D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Debug\BrowseInfo\main.pbi: \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\main.c \
+D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\Debug\BrowseInfo\main.pbi: \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\main.c \
   E:\programs\iar\arm\inc\c\stdint.h E:\programs\iar\arm\inc\c\ycheck.h \
   E:\programs\iar\arm\inc\c\yvals.h \
   E:\programs\iar\arm\inc\c\DLib_Defaults.h \
   E:\programs\iar\arm\inc\c\DLib_Config_Normal.h \
   E:\programs\iar\arm\inc\c\DLib_Product.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\tm4c123gh6pm.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\types.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\DIO.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\bitwise_operation.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Systic_timer.h \
-  D:\0.gam3a\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\Timer0.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\tm4c123gh6pm.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\types.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\DIO.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\bitwise_operation.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\Systic_timer.h \
+  D:\0.semester\ 8\5-RTOS\labs\New\ folder\RTOS-college-progress\RTOS-college-progress-2\Timer0.h \
   E:\programs\iar\arm\inc\c\stdbool.h \
   C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h \
   C:\ti\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h \
