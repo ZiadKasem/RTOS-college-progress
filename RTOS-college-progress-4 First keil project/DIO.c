@@ -28,11 +28,11 @@ void DIO_init(void)
   
   SYSCTL_RCGCGPIO_R|=0x2; //clk =1 at port B
   while((SYSCTL_PRGPIO_R & 0x2)!= 0x2); //actual clk value check 
-  GPIO_PORTB_LOCK_R = 0x4C4E434B; 
-  GPIO_PORTB_CR_R |= 0x8; 
-  GPIO_PORTB_DIR_R|= 0x00;
-  GPIO_PORTB_PDR_R|= 0x8;
-  GPIO_PORTB_DEN_R|= 0x8;
+  GPIO_PORTB_LOCK_R = 0x4C4F434B; 
+  GPIO_PORTB_CR_R |= 0xFF; 
+  GPIO_PORTB_DIR_R|= 0xFF;
+  GPIO_PORTB_PDR_R|= 0xFF;
+  GPIO_PORTB_DEN_R|= 0xFF;
   
 }
 

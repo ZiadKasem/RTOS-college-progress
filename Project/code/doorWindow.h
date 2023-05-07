@@ -1,0 +1,3 @@
+void UpPassengerWindow();
+
+void DownPassengerWindow();
